@@ -5,7 +5,7 @@ on:
       - master
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: 'api'
-  DOTNET_VERSION: '8.0.x'
+  DOTNET_VERSION: '6.0.x'
 jobs:
   deploy-website:
     runs-on: ubuntu-latest
