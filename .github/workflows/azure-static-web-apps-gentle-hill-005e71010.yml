@@ -2,7 +2,7 @@ name: Build and Deploy website with Azure Function
 on:
   push:
     branches:
-      - main
+      - master
 env:
   AZURE_FUNCTIONAPP_PACKAGE_PATH: 'api'
   DOTNET_VERSION: '6.0.x'
